@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="op.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<center><body>
+    <table class="calculator"><!--Kop-->
+        
+        <thead class="calculator-head-titels" >
+            <tr>
+            <th>Cluster</th>
+            <th>Studiepunten<br>haalbaar</th>
+            <th>Vak</th>
+            <th>Cijfer</th>
+            <th>Cluster<br>Gemiddelde</th>
+            <th>Studiepunten<br>Behaald</th>
+            </tr>
+        </thead>
+            
+            <tbody>
+                <tr class="calculator-left-details">
+                    <td class="left-vakken" rowspan="2">KT1</td>
+                    <td class="left-vakken" rowspan="2"><span id="studiepuntenHaalbaarKT1">3</span></td>
+                    <td class="left-vakken">UXD</td>
+                    <td class="left-vakken"><input type="text" id="UXD" placeholder="eindcijfer"></td>
+                    <td class="left-vakken" rowspan="2" id="gemiddeldeKT1">Gemiddelde</td>
+                    <td class="left-vakken" rowspan="2" id="studiebehaaldBehaaldKT1">Studiepunten</td>
+                    </tr>
+                    <tr>
+                        <td class="left-vakken">TPR</td>
+                        <td class="left-vakken"><input type="text" id="TPR" placeholder="eindcijfer"></td>
+                    </tr>
+            </tbody>        
+<!--kt2-->
+            <tbody>
+                    <tr class="calculator-left-details">
+                            <td  class="left-vakken"rowspan="2">KT2</td>
+                            <td class="left-vakken" rowspan="2"><span id="studiepuntenHaalbaarKT2">5</span></td>
+                            <td class="left-vakken">PRO1</td>
+                            <td class="left-vakken"><input type="text" id="PRO1" placeholder="eindcijfer"></td>
+                            <td class="left-vakken" rowspan="2" id="gemiddeldeKT2">Gemiddelde</td>
+                            <td class="left-vakken" rowspan="2" id="studiebehaaldBehaaldKT2">Studiepunten</td>
+                            </tr>
+                            <tr></tr>
+                                <td class="left-vakken">PRO2</td>
+                                <td class="left-vakken"><input type="text" id="PRO2" placeholder="eindcijfer"></td>
+                    </tr>
+            </tbody>
+            <tbody>
+                    <tr class="calculator-left-details">
+                            <td class="left-vakken" rowspan="2">KT3</td>
+                            <td class="left-vakken" rowspan="2"><span id="studiepuntenHaalbaarKT3">3</span></td>
+                            <td class="left-vakken">PROJ</td>
+                            <td class="left-vakken"><input type="text" id="PROJ" placeholder="eindcijfer"></td>
+                            <td class="left-vakken" rowspan="2" id="gemiddeldeKT3">Gemiddelde</td>
+                            <td class="left-vakken" rowspan="2" id="studiebehaaldBehaaldKT3">Studiepunten</td>
+                            </tr>
+                            <tr>
+                                <td class="left-vakken">WVO</td>
+                                <td class="left-vakken"><input type="text" id="WVO" placeholder="eindcijfer"></td>
+                    </tr>
+            </tbody>
+                <tbody>
+                        <tr class="calculator-left-details">
+                                <td class="left-vakken" rowspan="3">AVO</td>
+                                <td class="left-vakken" rowspan="3"><span id="studiepuntenHaalbaarAVO">3</span></td>
+                                <td class="left-vakken">ENG</td>
+                                <td class="left-vakken"><input type="text" id="ENG" placeholder="eindcijfer"></td>
+                                <td class="left-vakken" rowspan="3" id="gemiddeldeAVO">Gemiddelde</td>
+                                <td class="left-vakken" rowspan="3" id="studiebehaaldBehaaldAVO">Studiepunten</td>
+                        </tr>
+                         <tr>
+                                    <td class="left-vakken">NED</td>
+                                    <td class="left-vakken"><input type="text" id="NED" placeholder="eindcijfer"></td>
+                        </tr>
+                        <tr>
+                                <td class="left-vakken">REK</td>
+                                <td class="left-vakken"><input type="text" id="REK" placeholder="eindcijfer"></td>
+                    </tr>
+                </tbody>    
+                    <tbody>
+                            <tr class="calculator-left-details">
+                                    <td class="left-vakken" rowspan="2">PROF</td>
+                                    <td class="left-vakken" rowspan="2"><span id="studiepuntenHaalbaarPROF">1</span></td>
+                                    <td class="left-vakken">BUR</td>
+                                    <td class="left-vakken"><input type="text" id="BUR" placeholder="eindcijfer"></td>
+                                    <td class="left-vakken" rowspan="2" id="gemiddeldePROF">Gemiddelde</td>
+                                    <td  class="left-vakken"rowspan="2" id="studiebehaaldBehaaldPROF">Studiepunten</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="left-vakken"> SLB</td>
+                                        <td class="left-vakken"><input type="text" id="SLB" placeholder="eindcijfer"></td>
+                            </tr>
+                    </tbody>
+                            <tfoot class="footer">
+                                <tr class="footer-buttons">
+                                    <td class="left-vakken">
+                                        <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                                        <img src="valid-html5-blue.png" alt="Valide HTML5"></a>
+                                    </td>
+                                    <td  class=" left-vakken footer-buttons">
+                                            <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+                                                <img src="vcss-blue.gif" alt="Valide CSS"></a>
+                                    </td>
+                                    <td class="left-vakken" colspan="3">Totaal aantal Studiepunten</td>
+                                    <td  class="left-vakken" id="totaalSP">Totaal</td>
+                                </tr>
+                            </tfoot>
+                                
+
+    </table>
+    <script src="script.js"></script>
+</body></center>
+</html>

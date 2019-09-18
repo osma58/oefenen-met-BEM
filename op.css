@@ -1,0 +1,40 @@
+table {
+    width: 80%;
+    box-shadow: 10px 10px 5px grey;
+    border-radius: 25px;
+    
+}
+table, th, td {
+    border-radius: 25px;
+    border: 1px dotted gray;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    border-radius: 25px;
+}
+
+th {
+    font-family: "lucida console", Monaco, monospace;
+    font-size: 1em;
+    background-color silver;
+    border-radius: 25px;
+}
+.left-vakken{
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1e,;
+    border-radius: 25px;
+}
+
+img {
+    border-radius: 25px;
+}
+
+body {
+    background-color:  #A41E1E;
+}
+
+table {
+    background-color:  white;
+}
