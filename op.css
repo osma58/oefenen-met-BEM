@@ -1,3 +1,12 @@
+
+/* BEM examples */
+.calculator__input {};
+.validator__img {};
+.validator__img__click{};
+.calculator-left-details{};
+
+/* ============================= */
+
 table {
     width: 80%;
     box-shadow: 10px 10px 5px grey;
@@ -21,13 +30,21 @@ th {
     background-color silver;
     border-radius: 25px;
 }
+/* bem oefening */
 .left-vakken{
     font-family: "Courier New", Courier, monospace;
     font-size: 1e,;
     border-radius: 25px;
-}
 
-img {
+}
+/* modifyer */
+.calculator_left-vakken__studiepunten, 
+.calculator_left-vakken-totaal{
+    color: blue;
+}
+/* ------------------ */
+
+.calculator__validator-img  {
     border-radius: 25px;
 }
 
@@ -35,6 +52,6 @@ body {
     background-color:  #A41E1E;
 }
 
-table {
+.calculator {
     background-color:  white;
 }
